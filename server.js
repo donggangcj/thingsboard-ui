@@ -30,8 +30,11 @@ const httpProxy = require('http-proxy');
 // const forwardHost = 'localhost';
 // const forwardPort = 8080;
 
-const forwardHost = '192.168.5.82';
-const forwardPort = 31409;
+//const forwardHost = '192.168.5.82';
+//const forwardPort = 31409;
+
+const forwardHost = process.env.FORWARDHOST || '192.168.5.82';
+const forwardPort = process.env.FORWARDPORT || 31409;
 
 const ruleNodeUiforwardHost = '0.0.0.0';
 const ruleNodeUiforwardPort = 8080;
