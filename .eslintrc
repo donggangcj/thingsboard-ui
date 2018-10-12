@@ -9,7 +9,9 @@
   "settings": {
     "import/ignore": [
       "node_modules",
-      "\\.tpl\\.html$"
+      "\\.tpl\\.html$",
+      "\\.svg$"
+
     ]
   },
   "globals": {
