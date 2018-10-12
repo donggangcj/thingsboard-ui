@@ -18,7 +18,6 @@
 // import logoSvg from '../../svg/logo_daocloud.svg';
 
 import logoSvg from '../../svg/logo_qianyun.svg';
-// import logoSvg1 from '../../svg/one.png';
 
 /* eslint-enable import/no-unresolved, import/default */
 
