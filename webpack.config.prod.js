@@ -70,7 +70,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: '../index.html',
-            title: 'DaoCloud',
+            title: 'MASSCLOUDS',
             inject: 'body',
         }),
         new webpack.optimize.OccurrenceOrderPlugin(),

@@ -138,7 +138,7 @@ export default function AppRun($rootScope, $window, $injector, $location, $log, 
             }
         })
 
-        $rootScope.pageTitle = 'DaoCloud';
+        $rootScope.pageTitle = 'MASSCLOUDS';
 
         $rootScope.stateChangeSuccessHandle = $rootScope.$on('$stateChangeSuccess', function (evt, to, params) {
             if (userService.isPublic() && to.name === 'dashboard') {
@@ -147,9 +147,9 @@ export default function AppRun($rootScope, $window, $injector, $location, $log, 
             }
             if (angular.isDefined(to.data.pageTitle)) {
                 $translate(to.data.pageTitle).then(function (translation) {
-                    $rootScope.pageTitle = 'DaoCloud | ' + translation;
+                    $rootScope.pageTitle = 'MASSCLOUDS | ' + translation;
                 }, function (translationId) {
-                    $rootScope.pageTitle = 'DaoCloud | ' + translationId;
+                    $rootScope.pageTitle = 'MASSCLOUDS | ' + translationId;
                 });
             }
         })
