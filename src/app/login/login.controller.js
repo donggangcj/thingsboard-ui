@@ -14,8 +14,10 @@
  * limitations under the License.
  */
 /* eslint-disable import/no-unresolved, import/default */
-
+// 
 import logoSvg from '../../svg/logo_daocloud.svg';
+
+// import logoSvg from '../../svg/logo_qianyun.svg';
 
 /* eslint-enable import/no-unresolved, import/default */
 

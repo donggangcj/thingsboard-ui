@@ -18,8 +18,9 @@ import $ from 'jquery';
 /* eslint-disable import/no-unresolved, import/default */
 
 import logoSvg from '../../svg/logo_daocloud.svg';
+// import logoSvg from '../../svg/logo_qianyun.svg';
 
-/* eslint-enable import/no-unresolved, import/default */
+/* eslint-enable import/on-unresolved, import/default */
 
 /* eslint-disable angular/angularelement */
 
